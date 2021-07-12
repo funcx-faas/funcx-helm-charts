@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   funcx:
   - apiVersion: v2
-    created: "2021-05-11T15:18:02.784196-05:00"
+    created: "2021-07-12T12:32:25.214519-05:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -25,8 +25,18 @@ entries:
     version: 0.2.0
   funcx_endpoint:
   - apiVersion: v2
+    appVersion: 0.3.0
+    created: "2021-07-12T12:32:25.221893-05:00"
+    description: Deploy a funcX endpoint into a cluster
+    digest: 83abd11c4b40b519e1985d4a43ee1f97d6e2225854c93752aa27f9eba589b412
+    name: funcx_endpoint
+    type: application
+    urls:
+    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-05-11T15:18:02.786585-05:00"
+    created: "2021-07-12T12:32:25.221172-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8ffd2e7414ea5426e783a500141c5aba5452fb5096ea292413d957f760926c38
     name: funcx_endpoint
@@ -36,7 +46,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-05-11T15:18:02.786035-05:00"
+    created: "2021-07-12T12:32:25.21874-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: af236165cee99dc881685169b941bf57d6c5630c118b5423c3216c469ac74159
     name: funcx_endpoint
@@ -46,7 +56,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-05-11T15:18:02.785395-05:00"
+    created: "2021-07-12T12:32:25.21797-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 1420fff8e493ed6cd1d33d4a0a92258b2172cc437fbd2c6153569aea24a44001
     name: funcx_endpoint
@@ -56,7 +66,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-05-11T15:18:02.784842-05:00"
+    created: "2021-07-12T12:32:25.217236-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8b12543ce85f7929762636f7d8a600a1900794bcf850e34fa2ffa04c1f4ed959
     name: funcx_endpoint
@@ -64,4 +74,4 @@ entries:
     urls:
     - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-11T15:18:02.774789-05:00"
+generated: "2021-07-12T12:32:25.204922-05:00"
