@@ -2,7 +2,33 @@ apiVersion: v1
 entries:
   funcx:
   - apiVersion: v2
-    created: "2021-07-13T13:32:11.528013-05:00"
+    created: "2021-07-27T10:47:35.59123-05:00"
+    dependencies:
+    - condition: services.postgres.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.1.4
+    - condition: services.redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.7.*
+    - condition: services.rabbitmq.enabled
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.11.6
+    - condition: endpoint.enabled
+      name: funcx_endpoint
+      repository: http://funcx.org/funcx-helm-charts
+      version: 0.2.*
+    description: FuncX Register and Run Functions Anywhere
+    digest: 0346648d85d4576d0e584b1e52011b002434eb1083e383a4a1cc270a95a48a46
+    name: funcx
+    type: application
+    urls:
+    - http://funcx.org/funcx-helm-charts/funcx-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2021-07-27T10:47:35.577579-05:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -28,7 +54,7 @@ entries:
     - http://funcx.org/funcx-helm-charts/funcx-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2021-07-13T13:32:11.517266-05:00"
+    created: "2021-07-27T10:47:35.566803-05:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -52,7 +78,7 @@ entries:
   funcx_endpoint:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-07-13T13:32:11.531386-05:00"
+    created: "2021-07-27T10:47:35.594536-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 83abd11c4b40b519e1985d4a43ee1f97d6e2225854c93752aa27f9eba589b412
     name: funcx_endpoint
@@ -62,7 +88,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-07-13T13:32:11.530752-05:00"
+    created: "2021-07-27T10:47:35.593815-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8ffd2e7414ea5426e783a500141c5aba5452fb5096ea292413d957f760926c38
     name: funcx_endpoint
@@ -72,7 +98,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-07-13T13:32:11.53019-05:00"
+    created: "2021-07-27T10:47:35.593157-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: af236165cee99dc881685169b941bf57d6c5630c118b5423c3216c469ac74159
     name: funcx_endpoint
@@ -82,7 +108,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-07-13T13:32:11.529458-05:00"
+    created: "2021-07-27T10:47:35.59258-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 1420fff8e493ed6cd1d33d4a0a92258b2172cc437fbd2c6153569aea24a44001
     name: funcx_endpoint
@@ -92,7 +118,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2021-07-13T13:32:11.528769-05:00"
+    created: "2021-07-27T10:47:35.591971-05:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8b12543ce85f7929762636f7d8a600a1900794bcf850e34fa2ffa04c1f4ed959
     name: funcx_endpoint
@@ -100,4 +126,4 @@ entries:
     urls:
     - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-13T13:32:11.510127-05:00"
+generated: "2021-07-27T10:47:35.559729-05:00"
