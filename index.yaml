@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   funcx:
   - apiVersion: v2
-    created: "2023-04-27T14:43:53.54378-05:00"
+    created: "2023-05-10T10:31:15.792446147-04:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -25,10 +25,10 @@ entries:
     name: funcx
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx-0.3.1.tgz
+    - https://funcx.org/funcx-helm-charts/funcx-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
-    created: "2023-04-27T14:43:53.533598-05:00"
+    created: "2023-05-10T10:31:15.784962393-04:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -51,10 +51,10 @@ entries:
     name: funcx
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx-0.3.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
-    created: "2023-04-27T14:43:53.521924-05:00"
+    created: "2023-05-10T10:31:15.774297654-04:00"
     dependencies:
     - condition: services.postgres.enabled
       name: postgresql
@@ -73,128 +73,138 @@ entries:
     name: funcx
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx-0.2.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx-0.2.0.tgz
     version: 0.2.0
   funcx_endpoint:
   - apiVersion: v2
     appVersion: 1.0.11
-    created: "2023-04-27T14:43:53.553218-05:00"
+    created: "2023-05-10T10:31:15.796510792-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 4856a7f018637521274d0073151f26ce5af0934ab75539e8131d86cd2d2678ea
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.5.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.3.8
-    created: "2023-04-27T14:43:53.552588-05:00"
+    created: "2023-05-10T10:31:15.796190664-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 072c0f47a0e30e435bb2eea109bb080977b9ae225dcda2395feccf132bbb8712
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.8.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.8.tgz
     version: 0.3.8
   - apiVersion: v2
     appVersion: 0.3.5
-    created: "2023-04-27T14:43:53.551949-05:00"
+    created: "2023-05-10T10:31:15.79586194-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: df11082e2001f11bc1a52dd77ee46f3e5bf560e6ef7e584f5f2176313fe9ec16
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.5.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.5.tgz
     version: 0.3.5
   - apiVersion: v2
     appVersion: 0.3.4
-    created: "2023-04-27T14:43:53.550405-05:00"
+    created: "2023-05-10T10:31:15.795553303-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 2920037e96a0668bfd2dc14c7931186813ec2ef87872153077409b1301f0a652
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.4.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
     appVersion: 0.3.4
-    created: "2023-04-27T14:43:53.549607-05:00"
+    created: "2023-05-10T10:31:15.795251389-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 2fcb73d56b8250570dd8151a62a04cf633107d7e3f146534006037b1e1b6143f
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.4-post.1.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.4-post.1.tgz
     version: 0.3.4-post.1
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2023-04-27T14:43:53.548118-05:00"
+    created: "2023-05-10T10:31:15.794918347-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 83abd11c4b40b519e1985d4a43ee1f97d6e2225854c93752aa27f9eba589b412
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-04-27T14:43:53.547282-05:00"
+    created: "2023-05-10T10:31:15.794591786-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8ffd2e7414ea5426e783a500141c5aba5452fb5096ea292413d957f760926c38
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.2.1.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2023-04-27T14:43:53.546405-05:00"
+    created: "2023-05-10T10:31:15.794253685-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: af236165cee99dc881685169b941bf57d6c5630c118b5423c3216c469ac74159
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.2.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2023-04-27T14:43:53.54563-05:00"
+    created: "2023-05-10T10:31:15.793445124-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 1420fff8e493ed6cd1d33d4a0a92258b2172cc437fbd2c6153569aea24a44001
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.1.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2023-04-27T14:43:53.544718-05:00"
+    created: "2023-05-10T10:31:15.792803655-04:00"
     description: Deploy a funcX endpoint into a cluster
     digest: 8b12543ce85f7929762636f7d8a600a1900794bcf850e34fa2ffa04c1f4ed959
     name: funcx_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.0.tgz
+    - https://funcx.org/funcx-helm-charts/funcx_endpoint-0.1.0.tgz
     version: 0.1.0
   globus_compute_endpoint:
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2023-04-27T14:43:53.554296-05:00"
+    created: "2023-05-10T10:31:15.79752109-04:00"
+    description: Deploy a Globus Compute endpoint into a cluster
+    digest: 9ba3e6aa90849913b8fbfda9be1317f993a0255f19230f7fd0370713ed3e1ecb
+    name: globus_compute_endpoint
+    type: application
+    urls:
+    - https://funcx.org/funcx-helm-charts/globus_compute_endpoint-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
+    appVersion: 0.7.0
+    created: "2023-05-10T10:31:15.797190292-04:00"
     description: Deploy a Globus Compute endpoint into a cluster
     digest: 378f7fcdc9a70ead22dc961ae92c12660cd9d3b504c8d7dd737524db527a4e82
     name: globus_compute_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/globus_compute_endpoint-0.7.0.tgz
+    - https://funcx.org/funcx-helm-charts/globus_compute_endpoint-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2023-04-27T14:43:53.553736-05:00"
+    created: "2023-05-10T10:31:15.796869763-04:00"
     description: Deploy a Globus Compute endpoint into a cluster
     digest: fa1e8407538a77d91578d9bea892e02d6792a9af753f8c1c47ead22666643f66
     name: globus_compute_endpoint
     type: application
     urls:
-    - http://funcx.org/funcx-helm-charts/globus_compute_endpoint-0.6.0.tgz
+    - https://funcx.org/funcx-helm-charts/globus_compute_endpoint-0.6.0.tgz
     version: 0.6.0
-generated: "2023-04-27T14:43:53.512016-05:00"
+generated: "2023-05-10T10:31:15.765461613-04:00"
